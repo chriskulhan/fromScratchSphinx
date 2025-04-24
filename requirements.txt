@@ -1,0 +1,8 @@
+#Requirements File Format:
+
+#These will need to be installed locally:
+python pip install -U sphinx
+
+#for images: 
+docker run -it --rm -v /path/to/document:/docs sphinxdoc/sphinx sphinx-quickstart
+
